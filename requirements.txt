@@ -1,0 +1,2 @@
+pyodbc==4.0.39
+Requests==2.31.0
