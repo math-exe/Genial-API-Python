@@ -1,4 +1,4 @@
-# Genial API Data Fetcher <img src="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" alt="API Icon">
+# Genial API Data Fetcher 🌐
 
 Este é um projeto em Python que automatiza a consulta à API do Sistema Genial para coletar e processar dados em formato XML, em seguida, inserindo esses dados em um banco de dados SQL Server. O projeto é composto por vários módulos.
 
