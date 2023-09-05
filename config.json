@@ -1,0 +1,10 @@
+{
+
+    "server" : "your_server",
+    "database" : "your_database",
+    "user_db" : "your_userDB",
+    "password_db" : "your_passwordDB",
+    "client" : "your_client",
+    "client_key" : "your_clientKey"
+
+}
