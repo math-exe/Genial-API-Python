@@ -20,18 +20,18 @@ def processing_data(dados_api):
     for item in dados_api:
         # Processamento específico
         processing_data.append({
-            'chaveAcesso' : item['chaveAcesso'],
-            'status' : item['status'],
-            'nomeEmitente' : item['nomeEmitente'],
-            'cnpjEmitente' : item['cnpjEmitente'],
-            'nomeDestinatario' : item['nomeDestinatario'],
-            'cnpjDestinatario' : item['cnpjDestinatario'],
-            'dataEmissao' : item['dataEmissao'],
-            'numero' : item['numero'],
-            'serie' : item['serie'],
-            'valor' : item['valor'],
-            'baseIcms' : item['baseIcms'],
-            'valorIcms' : item['valorIcms'],
-            'situacaoNota' : item['situacaoNota']
+            'chaveAcesso': item['chaveAcesso'],
+            'status': item['status'],
+            'nomeEmitente': item['nomeEmitente'],
+            'cnpjEmitente': item['cnpjEmitente'],
+            'nomeDestinatario': item['nomeDestinatario'],
+            'cnpjDestinatario': item['cnpjDestinatario'],
+            'dataEmissao': item['dataEmissao'],
+            'numero': item['numero'],
+            'serie': item['serie'],
+            'valor': item['valor'],
+            'baseIcms': item['baseIcms'],
+            'valorIcms': item['valorIcms'],
+            'situacaoNota': item['situacaoNota']
         })
     return processing_data
